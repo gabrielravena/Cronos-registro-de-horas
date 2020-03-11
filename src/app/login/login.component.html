@@ -1,0 +1,27 @@
+<div>
+    <br>
+    <form class="formulario" method="POST">
+      <legend>
+        <img src="./assets/logo.jpg" alt="logo" class="img-logo">
+      </legend>
+    <mat-form-field class="mat-form-field">
+    <input class="input"  matInput placeholder="Usuario" [formControl]="userFormControl">
+    <mat-error *ngIf="userFormControl.hasError('required')">
+      El usuario es requerido
+    </mat-error>
+    <mat-error *ngIf="userFormControl.hasError('user') && !userFormControl.hasError('required')">
+      Usuario inválido, ingrese un usuario válido para poder iniciar sesión
+    </mat-error>
+  </mat-form-field>
+  <!--Password-->
+  <div class="password">
+    <mat-form-field class="form-field">
+      <input class="inputpass" matInput [type]="hide ? 'password' : 'text'" placeholder="Ingrese contraseña">
+      <button class="button" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon class="icono">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+  </mat-form-field>
+  </div>
+    <input class="BotonIngresar" type="button" value="Ingresar">
+  </form>
+  

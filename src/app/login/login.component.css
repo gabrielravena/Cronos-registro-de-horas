@@ -1,0 +1,80 @@
+.formulario {
+    width: 410px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+  }
+  
+  .img-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-bottom: 20px;
+    border: 2px solid  #ccc;
+  }
+  
+  .password {
+    background-color:#5E8DF3;
+  }
+  
+  #mat-input-0  #mat-input-1  {
+    background-color: #fff;
+    height: 35px;
+  }
+  
+  .mat-form-field {
+    width: 360px;
+    margin-left: 25px;
+  }
+  
+  .password {
+    background-color: #fff;
+  }
+  
+  .button {
+    /*width: 50px;
+    height: 50px;*/
+    float: left;
+    color: #000;
+    margin: auto;
+    display: block;
+  }
+
+  .button:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .icono {
+    width: 40px;
+  }
+  
+  .BotonIngresar {
+    width: 410px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /*border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    background-color: #2659DA;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  
+  .BotonIngresar:hover {
+    width: 410px;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #072C89;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
